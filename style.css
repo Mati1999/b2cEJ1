@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: rgb(0, 105, 105);
+}
+
+button {
+  color: black;
+}
+
+input {
+  color: black;
+}
+
+.program {
+  height: 100vh;
+}
+
+.edit {
+  height: 100%;
+  text-align: center;
+}
+.edit form {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.edit input {
+  outline: none;
+  border: 1px solid rgb(0, 190, 190);
+  background: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+.edit input:focus {
+  background-color: rgb(0, 133, 133);
+  color: white;
+}
+.edit input:-webkit-autofill, .edit input:-webkit-autofill:hover, .edit input:-webkit-autofill:focus, .edit input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+.edit .inputName,
+.edit .inputDesc {
+  text-align: left;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.edit .inputName label,
+.edit .inputDesc label {
+  width: 30%;
+}
+.edit .inputName input,
+.edit .inputDesc input {
+  width: 70%;
+}
+.edit button {
+  width: 25%;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(0, 190, 190);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+.edit button:hover {
+  background: rgb(0, 190, 190);
+  color: rgb(0, 71, 71);
+}
+
+.radioBtns {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.radioBtns input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.list {
+  height: 100%;
+}
+.list .productsContainer {
+  border: 1px solid rgb(0, 190, 190);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 80%;
+  overflow-y: scroll;
+}
+.list button {
+  width: 15%;
+  background: none;
+  outline: none;
+  border: 1px solid rgb(0, 190, 190);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+.list button:hover {
+  background: rgb(0, 190, 190);
+  color: rgb(0, 71, 71);
+}
+
+/*# sourceMappingURL=style.css.map */
